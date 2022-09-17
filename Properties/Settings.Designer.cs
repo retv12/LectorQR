@@ -8,21 +8,58 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace LectorQR.Properties
-{
+namespace LectorQR.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("22-23")]
+        public string TemporadaNumero {
+            get {
+                return ((string)(this["TemporadaNumero"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public string NumeroDePuerta {
+            get {
+                return ((string)(this["NumeroDePuerta"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=(local);database=TarjetaAbonadosLeones1617;User Id=sa;password=sa;Connecti" +
+            "on Reset=true;Connection Lifetime=120;enlist=true;Min Pool Size=2;Max Pool Size=" +
+            "400;Pooling=true;")]
+        public string ConexionAbonado {
+            get {
+                return ((string)(this["ConexionAbonado"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=(local);database=TorniqueteLeonesSillas1213;User Id=sa;password=sa;Connect" +
+            "ion Reset=true;Connection Lifetime=120;enlist=true;Min Pool Size=2;Max Pool Size" +
+            "=400;Pooling=true;")]
+        public string ConexionTorniquete {
+            get {
+                return ((string)(this["ConexionTorniquete"]));
             }
         }
     }
